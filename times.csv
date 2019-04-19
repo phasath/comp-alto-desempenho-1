@@ -1,4 +1,4 @@
-type, size, row_time, row_column
+type, size, row_time, column_time
 "c", 100, 0.001176, 0.003225
 "c", 200, 0.001393, 0.012398
 "c", 400, 0.002921, 0.102966
