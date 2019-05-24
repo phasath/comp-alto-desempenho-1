@@ -24,7 +24,7 @@ int main(int argc, char *argv[]){
         for(i=0; i<N; ++i){
             vtr[i] =  i*1.3569875*6.76512;
             mtr[i] = std::vector<float>(N);
-            for(j=0; j<N; j++){
+            for(j=0; j< N; j++){
                 mtr[i][j] = i*i*1.7453+j*3.674528;
             }
         }
