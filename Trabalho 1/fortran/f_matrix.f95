@@ -8,7 +8,7 @@ program matrixMultiplication
 
 allocate(m1(n,n),v1(n),v_res(n)) ! Alocating the matrices based on parameter n
 
-! Filling up values to matrix 1
+! Filling up vpalues to matrix 1
 do i = 1, n
  do j = 1, n
     m1(i, j) = i*i*1.7453+j*3.674528 ! This is a "random" operation in order not to allow the compiler taking advantage of the matrix value
